@@ -1,0 +1,7 @@
+li{
+    transition: width 2s ease-out 500ms;
+}
+
+li{
+    width: 300px;
+  }

@@ -64,6 +64,8 @@ body>header, body>footer {
 	text-align: center;
 }
 
+
+
 /*closes BASE*/
 
 /*- 2 - LAYOUT --- */
@@ -99,6 +101,7 @@ main>section, article {
 
 .major-navigation li {
 	margin-right: 24px;
+	/* transition: width 2s ease-out 500ms; */
 }
 
 .major-navigation > ul a {
@@ -120,6 +123,10 @@ main>section, article {
 
 .major-navigation > ul a:focus, .major-navigation > ul a:hover {
 	text-decoration: underline;
+}
+
+.major-navigation li:hover{
+	transform: scale(2);
 }
 
 /* Major Navigation Controls */
@@ -466,5 +473,6 @@ h2 + .profile-picture {
 		font-size: initial;
 	}
 }
+
 
 /*closes STATE*/
